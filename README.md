@@ -45,9 +45,9 @@ There's an external project [docker-lobsters](https://github.com/utensils/docker
     ```sh
     lobsters$ bundle
     ```
-    
-    * If when installing the `mysql2` gem on macOS, you see 
-      `ld: library not found for -l-lpthread` in the output, see 
+
+    * If when installing the `mysql2` gem on macOS, you see
+      `ld: library not found for -l-lpthread` in the output, see
       [this solution](https://stackoverflow.com/a/44790834/204052) for a fix.
       You might also see `ld: library not found for -lssl` if you're using
       macOS 10.4+ and Homebrew `openssl`, in which case see
@@ -67,7 +67,7 @@ running tests:
       socket: /tmp/mysql.sock
       username: *dev_username*
       password: *dev_password*
-      
+
     test:
       adapter: mysql2
       encoding: utf8mb4
@@ -120,3 +120,5 @@ running tests:
 
 Basic moderation happens on-site, but most other administrative tasks require use of the rails console in production.
 Administrators can create and edit tags at `/tags`.
+
+Teste CodeClimate
